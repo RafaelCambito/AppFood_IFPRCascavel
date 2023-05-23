@@ -21,17 +21,29 @@ Insomnia</br>
 2 - docker run -p 27017:27017 mongo
 OBS: Irá notificar no primeiro terminal a mensagem "Server is runing on http://localhost:3000". Se essa mensagem não aparecer, basta executar novamente no primeiro terminal o comando "yarn dev".
 
-# Cadastros de categorias via Insomnia
+# Cadastros de categorias via Insomnia - Utilização das rotas definidas no arquivo routers.ts
 - Com o servidor iniciado, Abrir o Insomnia para realizar os cadastros:</br>
 1 - New Folder - Utilizar nome de pasta como: CATEGORIES
 
-2 - Agora será criado um request com o método POST e utilizando JSON.
-2.1 - Na pasta "CATEGORIES", clicar em NEW HTTP REQUEST e renomear esse request para "CREATE CATEGORY"
+2 - Criação de request com o método POST e utilizando JSON.
+2.1 - Na pasta "CATEGORIES", clicar em NEW HTTP REQUEST e renomear esse request para "createCategory"
 2.2 - Definir esse category com o método POST 
-2.3 - Endereço para POST: http://localhost:3000/Categories/
+2.3 - Endereço para POST: http://localhost:3000/categories/
 2.4 - Definir o tipo do POST como JSON
+2.5 - Estrutura do Arquivo JSON:
+{
+	"icon":"🍕",
+	"name":"Pizza"
+}
+OBS: O ícone acima utilizado foi copiado do site (https://emojipedia.org). Ao acessar o site basta pesquisar pelo nome do ícone desejado, copiar e colar no espaço destinado ao ícone no JSON do Insominia. No exemplo acima foi copiado o ícone de Pizza.
+2.6 - Clicar em SEND no Insomnia para realizar o cadastro. Deve retornar Status "201 - Created".
 
+3 - Criação de request com método GET para listar as categorias criadas:
+3.1 - Na pasta "CATEGORIES", clicar em NEW HTTP REQUEST e renomear esse request para "listCategories"
+3.2 - Definir esse category com o método GET 
+3.3 - Endereço para GET: http://localhost:3000/categories/
+3.4 - Manter o tipo como Body
+3.5 - Ao clicar em SEND, deve retornar as categorias cadastradas.
 
+# Cadastros de Products via Insomnia - Utilização das rotas definidas no arquivo routers.ts
 
-
-- Junto ao diretório existem imagens das requisições com Cadastro, Busca e Atualização dos dados pelo Insomnia</br>
