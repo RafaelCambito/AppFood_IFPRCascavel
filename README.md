@@ -14,14 +14,14 @@ Insomnia</br>
 Os arquivos do repositório devem estar em uma única pasta</br>
 Abrir o pasta do projeto via VSCODE (VSCODE > FILE > OPEN FOLDER)</br>
 Abrir terminal via VSCODE e executar os seguintes comandos</br>
-	1 - npm install
-	2 - npm i -g yarn
-	3 - yarn dev
+	1 - npm install</br>
+	2 - npm i -g yarn</br>
+	3 - yarn dev</br>
 Abrir um segundo terminal via VSCODE para startar o docker:</br>
-	1 - docker ps -a
-	2 - docker run -p 27017:27017 mongo
+	1 - docker ps -a</br>
+	2 - docker run -p 27017:27017 mongo</br>
 
-OBS: Irá notificar no primeiro terminal a mensagem "Server is runing on http://localhost:3000". Se essa mensagem não aparecer, basta executar novamente no primeiro terminal o comando "yarn dev".
+OBS: Irá notificar no primeiro terminal a mensagem "Server is runing on http://localhost:3000". Se essa mensagem não aparecer, basta executar novamente no primeiro terminal o comando "yarn dev".</br>
 
 ### Cadastros de categorias via Insomnia - Utilização das rotas definidas no arquivo routers.ts
 Com o servidor iniciado, Abrir o Insomnia para realizar os cadastros:</br>
