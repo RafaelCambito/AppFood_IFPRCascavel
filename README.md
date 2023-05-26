@@ -12,12 +12,12 @@ Insomnia</br>
 ### Como funciona:</br>
 
 Os arquivos do repositório devem estar em uma única pasta</br>
-Abrir o pasta do projeto via VSCODE (VSCODE > FILE > OPEN FOLDER)
-Abrir terminal via VSCODE e executar os seguintes comandos
+Abrir o pasta do projeto via VSCODE (VSCODE > FILE > OPEN FOLDER)</br>
+Abrir terminal via VSCODE e executar os seguintes comandos</br>
 	1 - npm install
 	2 - npm i -g yarn
 	3 - yarn dev
-Abrir um segundo terminal via VSCODE para startar o docker:
+Abrir um segundo terminal via VSCODE para startar o docker:</br>
 	1 - docker ps -a
 	2 - docker run -p 27017:27017 mongo
 
