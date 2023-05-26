@@ -1,15 +1,15 @@
 ### Atividade Prática do Curso de TADS - IFPR Cascavel - Programação WEB II</br>
 
-#### Atividade proposta:</br>
+### Atividade proposta:</br>
 Criar o passo a passo com cada comando para instalar as dependencias e pacotes necessários, configurar e iniciar o docker e como inserir dados no via Insomia ou Postman.</br>
 
-#### Considera-se que esse projeto já esta em andamento, então entende-se que o usuário já terá instalado em sua máquina os programas:</br>
+### Considera-se que esse projeto já esta em andamento, então entende-se que o usuário já terá instalado em sua máquina os programas:</br>
 
 Node JS</br>
 Yarn</br>
 Insomnia</br>
 
-#### Como funciona:</br>
+### Como funciona:</br>
 
 Os arquivos do repositório devem estar em uma única pasta</br>
 Abrir o pasta do projeto via VSCODE (VSCODE > FILE > OPEN FOLDER)
@@ -23,7 +23,7 @@ Abrir um segundo terminal via VSCODE para startar o docker:
 
 OBS: Irá notificar no primeiro terminal a mensagem "Server is runing on http://localhost:3000". Se essa mensagem não aparecer, basta executar novamente no primeiro terminal o comando "yarn dev".
 
-#### Cadastros de categorias via Insomnia - Utilização das rotas definidas no arquivo routers.ts
+### Cadastros de categorias via Insomnia - Utilização das rotas definidas no arquivo routers.ts
 Com o servidor iniciado, Abrir o Insomnia para realizar os cadastros:</br>
 	
 ##### 1 - New Folder - Utilizar nome de pasta como: CATEGORIES
@@ -51,7 +51,7 @@ Com o servidor iniciado, Abrir o Insomnia para realizar os cadastros:</br>
 	3.4 - Manter o tipo como Body
 	3.5 - Ao clicar em SEND, deve retornar as categorias cadastradas.
 
-#### Cadastros de Products via Insomnia - Utilização das rotas definidas no arquivo routers.ts
+### Cadastros de Products via Insomnia - Utilização das rotas definidas no arquivo routers.ts
 Com o servidor iniciado, Abrir o Insomnia para realizar os cadastros:</br>
 	
 ##### 1 - New Folder - Utilizar nome de pasta como: PRODUCTS
